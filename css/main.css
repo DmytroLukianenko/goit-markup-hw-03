@@ -389,7 +389,7 @@ padding-bottom: 60px;
 }
 
 .offer {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
 }
