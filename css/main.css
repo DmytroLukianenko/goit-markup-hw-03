@@ -27,6 +27,8 @@
 /* Container */
 
 .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
   border: 1px solid purple;
   width: 1230px;
   padding-right: 15px;
@@ -76,6 +78,8 @@
   color: var(--primary-bg-color);
 }
 .header-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
   align-items: center;
   display: flex;
 }
@@ -120,6 +124,7 @@
   margin-left: auto;
 }
 .site-nav-right-link {
+  font-style: normal;
   display: block;
   padding-bottom: 32px;
   padding-top: 32px;
@@ -174,13 +179,13 @@
 
 .advantages {
   box-sizing: border-box;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-list {
   display: flex;
   flex-shrink: 0.9;
-  margin-top: 94px;
-  margin-bottom: 94px;
   padding-left: 0px;
   text-decoration: none;
 }
@@ -208,6 +213,10 @@
 
 /* services */
 
+.services {
+  padding-top: 0px;
+}
+
 .services-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -219,7 +228,6 @@
 }
 .services-list {
   display: flex;
-  margin-bottom: 94px;
   justify-content: center;
 }
 
@@ -231,9 +239,12 @@
 }
 
 /* team */
+
 .team-title {
-  padding-top: 116px;
-  padding-bottom: 50px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -294,7 +305,6 @@
 
 .footer-logo {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
   color: var(--accent-color);
   font-family: Raleway;
@@ -313,11 +323,14 @@
   letter-spacing: 0.02em;
 }
 
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /* adress */
 
 .adress {
-  padding-bottom: 60px;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -355,8 +368,7 @@
 .filter-list {
   justify-content: center;
   display: flex;
-  padding-top: 94px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-button:hover,
@@ -398,7 +410,7 @@
 }
 
 .offer-item:nth-last-child(-n + 3) {
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 .offer p {
@@ -407,6 +419,11 @@
   line-height: 1.9px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.offer-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .offer a {
