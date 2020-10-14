@@ -27,6 +27,7 @@
 /* Container */
 
 .container {
+  border: 1px solid purple;
   width: 1230px;
   padding-right: 15px;
   padding-left: 15px;  
@@ -388,7 +389,7 @@ padding-bottom: 60px;
 }
 
 .offer {
-  justify-content: stretch;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
