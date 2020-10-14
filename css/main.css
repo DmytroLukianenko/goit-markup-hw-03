@@ -9,6 +9,7 @@
 /* Цвет текста #757575 */
 /* Цвет акцента #2196F3 */
 .page {
+  margin: 0px;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
