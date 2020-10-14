@@ -27,7 +27,6 @@
 /* Container */
 
 .container {
-  border: 1px solid  purple;
   width: 1230px;
   padding-right: 15px;
   padding-left: 15px;  
@@ -321,6 +320,8 @@
 /* adress */
 
 .adress {
+padding-bottom: 60px;
+
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
