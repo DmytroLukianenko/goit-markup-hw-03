@@ -28,7 +28,7 @@
 /* Container */
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
@@ -71,8 +71,8 @@
 /* header */
 
 .header {
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-top: 24px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -353,7 +353,7 @@
 /* PPORTFOLIO CSS */
 /* Main block filter button */
 
-.main {
+.portfolio {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -363,6 +363,8 @@
 
   border: 0px;
   border-radius: 4px;
+
+  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
